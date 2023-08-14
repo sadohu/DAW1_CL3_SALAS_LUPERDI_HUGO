@@ -19,7 +19,7 @@ public class ProductoController {
 	
 	@GetMapping("/")
 	public String listarProducto(Model model) {
-		model.addAttribute("listarEmpleado", service.listarProducto());
+		model.addAttribute("listarProducto", service.listarProducto());
 		return "index";
 	}
 	
