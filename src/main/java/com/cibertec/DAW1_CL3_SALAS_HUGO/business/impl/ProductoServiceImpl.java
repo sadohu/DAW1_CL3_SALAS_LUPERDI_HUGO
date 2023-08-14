@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import com.cibertec.DAW1_CL3_SALAS_HUGO.business.ProductoService;
+import com.cibertec.DAW1_CL3_SALAS_HUGO.dao.ProductoRepository;
 import com.cibertec.DAW1_CL3_SALAS_HUGO.model.Producto;
-import com.cibertec.DAW1_CL3_SALAS_HUGO.repository.ProductoRepository;
 
 import lombok.AllArgsConstructor;
 

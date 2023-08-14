@@ -6,13 +6,13 @@
 	</head>
 	<body>
 		<div class="container my-2">
-			<h1>Registro de Producto</h1>
+			<h1>Editar Producto</h1>
 			<form th:action="@{/guardarProducto}" th:object="${item}" method="post">
 				<input type="hidden" th:field="*{id}"/>
 				<input type="text" th:field="*{nombre}" placeholder="Ingrese nombre" class="form-control mb-4 col-4" />
 				<input type="text" th:field="*{precio}" placeholder="Ingrese precio" class="form-control mb-4 col-4" />
 		 		<input type="text" th:field="*{cantidad}" placeholder="Ingrese cantidad" class="form-control mb-4 col-4" />
-		 		<button type="submit" class="btn btn-info col-2">Registrar Producto</button>
+		 		<button type="submit" class="btn btn-info col-2">Editar Producto</button>
 			</form>
 			<hr>
 			<a th:href="@{/}"></a>
